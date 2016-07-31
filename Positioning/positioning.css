@@ -1,0 +1,51 @@
+body{
+	background: #5F9EA0;
+}
+.wrapper{
+
+	padding: 25px;
+	text-align: justify;
+	background: #8FBC8F;
+	margin: auto;
+
+}
+
+
+.text1,
+.text2{
+
+	margin: 40px;
+
+}
+
+#fixed{
+	background: #eee;
+	padding: 20px;
+	width: 70px;
+	height: 70px;
+	position: fixed;
+    top: 0;
+    right: 1.5%;
+}
+
+#relative{
+	background: #999;
+	text-align: center;
+	padding: 20px 20px 20px 5%;
+	width: 90%;
+	height: 100px;
+	position: relative;
+	
+   
+}
+
+#absolute{
+	background: #eee;
+	padding: 20px;
+	width: 200px;
+	height: 30px;
+	position: absolute;
+    bottom: 0px;
+    right: -5%;
+
+}
